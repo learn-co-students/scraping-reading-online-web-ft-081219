@@ -5,7 +5,7 @@ require 'open-uri'
 
 doc = Nokogiri::HTML(open("https://www.atlasobscura.com/things-to-do/brazil/"))
 # puts doc.css(".headline-26OIBN").text
- puts doc.css(".subtitle-sm.content-card-subtitle.js-subtitle-content")
+ puts doc.css(".subtitle-sm.content-card-subtitle.js-subtitle-content").text
 
 puts "hello"
 
