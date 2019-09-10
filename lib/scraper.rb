@@ -7,4 +7,6 @@ doc = Nokogiri::HTML(html)
 
 #puts doc.css(".headline-26OIBN").text
 
-puts doc.css(".title-oE5vT4")[0][1][2].text
+puts doc.css(".title-oE5vT4")[0].text
+puts doc.css(".title-oE5vT4")[1].textputs 
+puts doc.css(".title-oE5vT4")[2].text
