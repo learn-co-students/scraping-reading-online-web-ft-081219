@@ -7,4 +7,4 @@ doc = Nokogiri::HTML(html)
 
 #puts doc.css(".headline-26OIBN").text
 
-puts doc.css(".tout__label.heading.heading--level-4")
+puts doc.css(".title-oE5vT4").text
